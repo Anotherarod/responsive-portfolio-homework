@@ -9,6 +9,50 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </head>
+<!--Input media queries with sizing parameters-->
+
+<style>
+    #img { position: absolute; left: 0; top: 0; } #text-over-img { z-index: 100; position: absolute; color: white; font-size: 24px; font-weight: bold; left: 150px; top: 350px; }
+    
+    
+      @media screen and (max-width: 980px) {
+    input {
+    width:100%;
+    padding:10px;
+    }
+    textarea {
+    width:100%;
+    padding:100px;
+    }
+    #submit{width:25%;background-color: teal;
+      color: white;}
+    }
+    @media screen and (max-width: 768px) {
+    input {
+    width:100%;
+    padding:10px;
+    }
+    textarea {
+    width:100%;
+    padding:50px;
+    }
+    #submit{width:25%;background-color: teal;
+      color: white;}
+    }
+    @media screen and (max-width: 640px) {
+    input {
+    width:100%;
+    padding:50px;
+    }
+    textarea {
+    width:100%;
+    padding:50px;
+    }
+    #submit{width:25%;background-color: teal;
+      color: white;}
+    }
+    label{font-family:arial;}
+    </style>
 
 <!---Input container and intital navbar with style and column-->
 <div class="container">
@@ -21,13 +65,13 @@
 
                 <div class="row" style="background-color:white;">
                     <div class="col-sm-4">
-                    <a class="nav-link" style="color:gray;" href="/Users/alexaguirrebena/responsive-portfolio-homework/index.html">About</a>
+                    <a class="nav-link" style="color:gray;" href="/Users/alexaguirrebena/responsive-portfolio-homework/index.html"> About</a>
                     </div>
                     <div class="col-sm-4">
                     <a class="nav-link" style="color:gray;"href="/Users/alexaguirrebena/responsive-portfolio-homework/portfolio.html">Portfolio</a>
                     </div>
                     <div class="col-sm-4">
-                    <a class="nav-link" style="color:gray;"href="/Users/alexaguirrebena/responsive-portfolio-homework/contact.html">Contact</a>
+                    <a class="nav-link" style="color:gray;"href="file:///Users/alexaguirrebena/Desktop/responsive-portfolio-homework/contact.html">Contact</a>
                     </div>
                 </div>
                </nav>
@@ -43,9 +87,9 @@
     <h2 style="color: teal;font-family: georgia;
     border-bottom: 3px solid lightgray;"> About me</h2>
 
-    <p> <img src="56090349639--7202F8C2-B221-4D41-84B8-7A52ADD14BB1.JPG" width="340" height="268" style="float:left; margin:10px;">
+    <p> <img src="https:///Users/alexaguirrebena/Desktop/56090349639--7202F8C2-B221-4D41-84B8-7A52ADD14BB1.JPG" width="340" height="268" style="float:left; margin:10px;">
 
-     I was born in Madrid, Spain. My family moved to the United States hen I was about 6 years old.
+     I was born in Madrid, Spain. My family moved to the United States when I was about 6 years old. Our family comes fro ma background of culinary culture and diversity. My mother was the first person in all of Spain to open a tanning salon in Madrid during the mid 80's. After she sold her business and we moved to Arlington, Virginia we opened a bakery where we specialized in an 20 layer Austrian style cake. We catered many weddings and were features in a prominent Arlington newspaper for our creative twist in the culinary arts.
     </p>
     
 </div>
